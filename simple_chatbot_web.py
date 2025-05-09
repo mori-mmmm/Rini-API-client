@@ -57,6 +57,7 @@ async def send_message():
                 provider=provider,
                 model=model,
                 session_id=current_session_id,
+                llm_params={"tool_choice":"auto"}
             )
             ai_response = response.get('response_text')
             return jsonify({"ai_response": ai_response})

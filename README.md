@@ -142,7 +142,12 @@ if os.path.exists("test_image.png"):
     python demo.py
     ```
 `simple_chatbot_cli.py`를 실행할 경우 매우 간단한 코드만으로 설정된 모델과 대화를 나눌 수 있습니다.  
-`simple_chatbot_web.py`로 로컬 환경(기본 `http://localhost:5000`)에서 웹 인터페이스를 통해 대화를 나눌 수도 있습니다.  
+<br />
+`simple_chatbot_web.py`로 로컬 환경(기본 `http://localhost:5000`)에서 웹 인터페이스를 통해 대화를 나눌 수도 있습니다. 
+<br />
+<br />
+![image](https://github.com/user-attachments/assets/2d19ecad-5a47-4ec1-9624-26882073077b)
+
 
 ## 예외 처리
 API 호출 중 오류가 발생하면 `RiniApiException`이 발생합니다. 이 예외에는 `status_code`와 `detail` 속성이 포함되어 오류 진단에 도움을 줍니다.

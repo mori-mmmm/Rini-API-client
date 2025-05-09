@@ -1,7 +1,8 @@
 # Rini API 클라이언트
 
 Rini API와 상호작용하기 위한 비동기 Python 클라이언트 라이브러리입니다.  
-이 클라이언트는 [Rini-API-server](https://github.com/mori-mmmm/Rini-API-server)와 함께 사용하도록 설계되었습니다.   Rini-API-server는 기본적으로 로컬 환경의 8000번 포트에서 실행됩니다.
+이 클라이언트는 [Rini-API-server](https://github.com/mori-mmmm/Rini-API-server)와 함께 사용하도록 설계되었습니다.   
+Rini-API-server는 기본적으로 로컬 환경의 8000번 포트에서 실행됩니다.
 <br />
 이 클라이언트를 사용하면 사용자 관리, API 키 관리, 세션 관리, 다양한 LLM과의 상호작용(텍스트, 채팅, 이미지), 임베딩 생성, MCP 연결 관리, 메모리 관리 및 비용 추정 등의 기능을 Python 애플리케이션에서 쉽게 활용할 수 있습니다.
 
@@ -16,7 +17,7 @@ Rini API와 상호작용하기 위한 비동기 Python 클라이언트 라이브
     *   **채팅 완성**: 메시지 목록을 기반으로 Stateless 또는 Stateful 채팅 응답을 생성합니다.
     *   **이미지-텍스트 상호작용**: 이미지와 텍스트 프롬프트를 함께 입력하여 Vision 모델의 응답을 받습니다.
 *   🛢️ **임베딩 생성**: 텍스트 입력을 위한 임베딩 벡터를 생성합니다.
-*   🔧 **MCP 연결 관리**: MCP(Model Context Protocol) 서버와의 연결을 추가, 조회, 수정 및 삭제합니다.
+*   🔧 **MCP 연결**: MCP(Model Context Protocol) 서버와의 연결을 추가, 조회, 수정 및 삭제합니다.
 *   💾 **메모리 관리(WIP)**: 세션별로 메모리 항목(예: 사실, 요약)을 추가, 조회, 수정 및 삭제하여 LLM의 컨텍스트 이해도를 높입니다.
 *   💰 **비용 추정**: API 사용량에 따른 예상 비용을 조회합니다.
 

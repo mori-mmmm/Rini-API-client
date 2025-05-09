@@ -1,8 +1,8 @@
-# Rini API 클라이언트
-
+# Rini API Client [[ENGLISH](https://github.com/mori-mmmm/Rini-API-client/blob/main/README_en.md)]
 Rini API와 상호작용하기 위한 비동기 Python 클라이언트 라이브러리입니다.  
 이 클라이언트는 [Rini-API-server](https://github.com/mori-mmmm/Rini-API-server)와 함께 사용하도록 설계되었습니다.   
 Rini-API-server는 기본적으로 로컬 환경의 8000번 포트에서 실행됩니다.
+<br />
 <br />
 이 클라이언트를 사용하면 사용자 관리, API 키 관리, 세션 관리, 다양한 LLM과의 상호작용(텍스트, 채팅, 이미지), 임베딩 생성, MCP 연결 관리, 메모리 관리 및 비용 추정 등의 기능을 Python 애플리케이션에서 쉽게 활용할 수 있습니다.
 
@@ -142,7 +142,12 @@ if os.path.exists("test_image.png"):
     python demo.py
     ```
 `simple_chatbot_cli.py`를 실행할 경우 매우 간단한 코드만으로 설정된 모델과 대화를 나눌 수 있습니다.  
-`simple_chatbot_web.py`로 로컬 환경(기본 `http://localhost:5000`)에서 웹 인터페이스를 통해 대화를 나눌 수도 있습니다.  
+<br />
+`simple_chatbot_web.py`로 로컬 환경(기본 `http://localhost:5000`)에서 웹 인터페이스를 통해 대화를 나눌 수도 있습니다. 
+<br />
+<br />
+![image](https://github.com/user-attachments/assets/2d19ecad-5a47-4ec1-9624-26882073077b)
+
 
 ## 예외 처리
 API 호출 중 오류가 발생하면 `RiniApiException`이 발생합니다. 이 예외에는 `status_code`와 `detail` 속성이 포함되어 오류 진단에 도움을 줍니다.

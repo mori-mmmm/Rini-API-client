@@ -1,4 +1,4 @@
-# Rini API Client [[English](https://github.com/mori-mmmm/Rini-API-client/blob/main/README_en.md)]
+# Rini API Client [[ENGLISH](https://github.com/mori-mmmm/Rini-API-client/blob/main/README_en.md)]
 Rini API와 상호작용하기 위한 비동기 Python 클라이언트 라이브러리입니다.  
 이 클라이언트는 [Rini-API-server](https://github.com/mori-mmmm/Rini-API-server)와 함께 사용하도록 설계되었습니다.   
 Rini-API-server는 기본적으로 로컬 환경의 8000번 포트에서 실행됩니다.

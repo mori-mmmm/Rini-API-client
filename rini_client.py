@@ -14,7 +14,7 @@ class RiniApiException(Exception):
 
 # --- Rini API 클라이언트 클래스 ---
 class RiniAPIClient:
-    def __init__(self, base_url: str = "http://localhost:8000", token: Optional[str] = None, timeout: float = 30.0):
+    def __init__(self, base_url: str = "http://localhost:8000", token: Optional[str] = None, timeout: float = 600.0):
         self.base_url = base_url.rstrip('/')
         self.token = token
         self._http_client: Optional[httpx.AsyncClient] = None
